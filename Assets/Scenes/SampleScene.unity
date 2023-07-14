@@ -289,6 +289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &40366341
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,6 +456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &52761099
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,6 +623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &75660794
 GameObject:
   m_ObjectHideFlags: 0
@@ -787,6 +790,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &142071162
 GameObject:
   m_ObjectHideFlags: 0
@@ -953,6 +957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &163183695
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,6 +1124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &177546734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1285,6 +1291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &241721260
 GameObject:
   m_ObjectHideFlags: 0
@@ -1451,6 +1458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &330602741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1617,6 +1625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &341103114
 GameObject:
   m_ObjectHideFlags: 0
@@ -1822,6 +1831,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1417916083}
+  - {fileID: 1743276078}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2298,6 +2308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2556,6 +2567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &646716145
 GameObject:
   m_ObjectHideFlags: 0
@@ -2603,6 +2615,7 @@ GameObject:
   - component: {fileID: 660984538}
   - component: {fileID: 660984537}
   - component: {fileID: 660984536}
+  - component: {fileID: 660984540}
   m_Layer: 0
   m_Name: Socket
   m_TagString: Untagged
@@ -2751,6 +2764,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &660984540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660984534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc4042380a86e2b49a0ea51f83a8d10b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frequency: 15
+  dampingRatio: 0.5
+  targetPos: 0
+  currentPos: 0
 --- !u!1 &725320235
 GameObject:
   m_ObjectHideFlags: 0
@@ -2917,6 +2946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &729577237
 GameObject:
   m_ObjectHideFlags: 0
@@ -3281,6 +3311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &936152411
 GameObject:
   m_ObjectHideFlags: 0
@@ -3744,6 +3775,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &1125372555
 GameObject:
   m_ObjectHideFlags: 0
@@ -3910,6 +3942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &1126713783
 GameObject:
   m_ObjectHideFlags: 0
@@ -4076,6 +4109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &1187809188
 GameObject:
   m_ObjectHideFlags: 0
@@ -4242,6 +4276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &1195408611
 GameObject:
   m_ObjectHideFlags: 0
@@ -4535,6 +4570,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &1415835769
 GameObject:
   m_ObjectHideFlags: 0
@@ -4701,6 +4737,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &1417916082
 GameObject:
   m_ObjectHideFlags: 0
@@ -4976,6 +5013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &1448291631
 GameObject:
   m_ObjectHideFlags: 0
@@ -5142,6 +5180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &1478447810
 GameObject:
   m_ObjectHideFlags: 0
@@ -5308,6 +5347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &1501827963
 GameObject:
   m_ObjectHideFlags: 0
@@ -5474,6 +5514,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &1539967032
 GameObject:
   m_ObjectHideFlags: 0
@@ -5746,6 +5787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &1718779629
 GameObject:
   m_ObjectHideFlags: 0
@@ -5912,6 +5954,127 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
+--- !u!1 &1743276077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1743276078}
+  - component: {fileID: 1743276080}
+  - component: {fileID: 1743276079}
+  - component: {fileID: 1743276081}
+  m_Layer: 5
+  m_Name: Slider_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1743276078
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743276077}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 419476173}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -36, y: -250}
+  m_SizeDelta: {x: 394.3349, y: 100}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1743276079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743276077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b41357f0764f23649b768f8c9a301d97, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1743276080
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743276077}
+  m_CullTransparentMesh: 1
+--- !u!114 &1743276081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743276077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 261aacd2ed748bb468ac10dd02b85e22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rect: {fileID: 1743276078}
+  grad:
+    serializedVersion: 2
+    key0: {r: 0, g: 0, b: 0, a: 1}
+    key1: {r: 0.6081352, g: 1, b: 0, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0.5415094, g: 0.7313687, b: 1, a: 0}
+    key4: {r: 1, g: 1, b: 1, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 15613
+    ctime2: 33924
+    ctime3: 52043
+    ctime4: 65535
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 5
+    m_NumAlphaKeys: 2
 --- !u!1 &1756802016
 GameObject:
   m_ObjectHideFlags: 0
@@ -6078,6 +6241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &1898069111
 GameObject:
   m_ObjectHideFlags: 0
@@ -6244,6 +6408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &1961387771
 GameObject:
   m_ObjectHideFlags: 0
@@ -6571,6 +6736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+  inputStrength: 0.5
 --- !u!1 &2078467655
 GameObject:
   m_ObjectHideFlags: 0
